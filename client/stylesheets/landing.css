@@ -61,11 +61,12 @@
 
 .learn-more .col-md-4 {
   text-align: center;
+  padding-top: 50px;
   height: 360px;
 }
 
 .learn-more .glyphicon {
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 100px;
 }
 
@@ -85,6 +86,31 @@
   font-size: 200px;
 }
 
+.contacts {
+  height: 120px;
+  background-color: #F3F3F3;
+}
+
+.contacts a {
+  color: gray;
+}
+
+.contacts a:hover {
+  color: #333333;
+}
+
+.contacts .col-md-2 {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 80px;
+}
+
+.contacts .col-md-3 h2 {
+  text-align: left;
+  margin-top: 35px;
+  font-size: 40px;
+}
+
 .points .col-md-7 {
   padding-top: 85px;
 }
@@ -100,7 +126,7 @@
 
 .footer {
   height: 50px;
-  background: #232323;
+  background: #333333;
   padding-top: 10px;
   text-align: center;
   font-size: 18px;
