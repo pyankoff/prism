@@ -1,0 +1,37 @@
+.sidebar {
+    position: absolute;
+    background-color: #f5f5f5;
+    top: 51px;
+    bottom: 0px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 18px;
+}
+
+.charts {
+    padding-right: 30px;
+}
+
+.chart1 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.data-stuff {
+    margin-top: 30px;
+    height: 320px;
+    background-color: #999;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.data-stuff h2 {
+    color: #FFF;
+}
+
+.data-stuff .glyphicon {
+    margin-top: 30px;
+    font-size: 150px;
+}
+

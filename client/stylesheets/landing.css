@@ -1,8 +1,7 @@
 .navbar {
-  background-color: transparent;
-  background: transparent;
   border: none;
   margin-bottom: 0px;
+  border-radius: 0px;
 }
 
 .navbar-brand {

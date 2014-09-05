@@ -3,6 +3,10 @@ Template.landing.events({
     $('html, body').animate({
     scrollTop: $("#more").offset().top
     }, 400);
+  },
+  'click .intro': function (evt) {
+    evt.preventDefault();
+    Router.go('intro');
   }
 });
 
