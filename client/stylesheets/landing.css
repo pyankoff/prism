@@ -1,0 +1,147 @@
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border: none;
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  color: #F3F3F3;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-nav a {
+  color: blue;
+  font-size: 18px;
+}
+
+.navbar-nav a:hover {
+  color: red;
+}
+
+.navbar-right li:focus {
+  background: transparent;
+}
+
+.jumbotron {
+  margin-top: -55px;
+  background-image:url('http://www.utoledo.edu/offices/controller/accounting_reporting/images/FinancialReporting.jpg');
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  color: #F3F3F3;
+  font-size: 60px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.jumbotron p {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.jumbotron .btn {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.learn-more .col-md-4 {
+  text-align: center;
+  height: 360px;
+}
+
+.learn-more .glyphicon {
+  margin-top: 30px;
+  font-size: 100px;
+}
+
+.points {
+  height: 360px;
+  background-color: #A3a3a3;
+}
+
+.points {
+  height: 360px;
+  background-color: #535353;
+  color: #F3F3F3;
+}
+
+.points .col-md-3 span {
+  margin-top: 70px;
+  font-size: 200px;
+}
+
+.points .col-md-7 {
+  padding-top: 85px;
+}
+
+.points .col-md-7 h3 {
+  margin-bottom: 20px;
+}
+
+.points .btn {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.footer {
+  height: 50px;
+  background: #232323;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #F3F3F3;
+}
+
+
+
+.video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 700px; 
+text-align: center;
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+  color: #F3F3F3;
+  font-size: 80px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+  -webkit-text-shadow: 1px 1px 1px #000;
+  -moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section p{
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.video-section .btn{
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
