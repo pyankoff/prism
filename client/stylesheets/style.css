@@ -13,7 +13,7 @@
     padding-right: 30px;
 }
 
-.chart1 {
+.chart1, .chart2 {
     padding-top: 30px;
     padding-left: 30px;
 }
@@ -35,3 +35,14 @@
     font-size: 150px;
 }
 
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
