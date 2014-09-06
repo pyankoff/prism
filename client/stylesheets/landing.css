@@ -50,11 +50,13 @@
   font-size: 36px;
   color: #fff;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .jumbotron .btn {
   font-size: 24px;
+  width: 200px;
+  margin: 20px;
   opacity: 0.8;
 }
 
