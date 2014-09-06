@@ -11,11 +11,7 @@ Template.charts.rendered = function () {
           .attr("height", h);
 
   var drawChart = function(update) {
-      
       dataset = Series.findOne().values; 
-      console.log(dataset);
-
-
 
       var bars = svg.selectAll("rect")
                 .data(dataset);
@@ -30,7 +26,6 @@ Template.charts.rendered = function () {
       var y = d3.scale.linear()
                       .domain([0, d3.max(dataset)])
                       .range([h - padding, padding]); 
-
 
       if (!update) {
 
@@ -73,7 +68,7 @@ Template.charts.rendered = function () {
                 });
 
       dataLabels = dataLabels.text(function(d) {
-              return d;
+              return d3.round(d);
             })
             .attr("x", function(d, i) {
               return x(i) + (w / dataset.length - barPadding) / 2;
@@ -91,4 +86,19 @@ Template.charts.rendered = function () {
       changed: _.partial(drawChart, true)
     });
 
-}
+};
+
+Template.charts.events({
+  'submit form': function(e) {
+    e.preventDefault();
+
+    var post = {
+        first: $(e.target).find('[name=first]').val(),
+        growth: $(e.target).find('[name=growth]').val()
+    }
+
+    Meteor.call('post', post);
+  }
+});
+
+

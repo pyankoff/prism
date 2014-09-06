@@ -46,3 +46,7 @@
 .axis text {
     font-size: 15px;
 }
+
+.control-group {
+    margin-bottom: 20px;
+}
