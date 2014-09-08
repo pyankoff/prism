@@ -1,0 +1,26 @@
+<template name="control">
+  <div class="control">
+    <h3>{{name}}</h3>
+    <form class="inputs">
+      <div class="control-group">
+          <label class="control-label" for="first">First</label>
+          <div class="controls">
+            <input name="first" type="text" value="" placeholder="First"/>
+          </div>
+      </div>
+
+      <div class="control-group">
+          <label class="control-label" for="growth">Monthly growth</label>
+          <div class="controls">
+            <input name="growth" type="text" value="" placeholder="%"/>
+          </div>
+      </div>
+
+      <div class="control-group">
+        <div class="controls">
+          <input type="submit" value="Submit" class="btn btn-primary"/>
+        </div>
+      </div>
+    </form>
+  </div>
+</template>

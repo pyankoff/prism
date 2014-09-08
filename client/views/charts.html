@@ -1,46 +1,7 @@
 <template name="charts">
   <div class="container-fluid charts">
-    <div class="row">
-      <div class="chart1 col-md-9">
-
-      </div>
-      <div class="col-md-3 data-stuff">
-        <h2>Data stuff</h2>
-
-          <form class="inputs">
-            <div class="control-group">
-                <label class="control-label" for="first">First</label>
-                <div class="controls">
-                  <input name="first" type="text" value="" placeholder="First"/>
-                </div>
-            </div>
-
-            <div class="control-group">
-                <label class="control-label" for="growth">Monthly growth</label>
-                <div class="controls">
-                  <input name="growth" type="text" value="" placeholder="%"/>
-                </div>
-            </div>
-
-            <div class="control-group">
-              <div class="controls">
-                <input type="submit" value="Submit" class="btn btn-primary"/>
-              </div>
-            </div>
-
-          </form>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="chart2 col-md-9">
-
-      </div>
-      <div class="col-md-3 data-stuff">
-        <h2>data stuff</h2>
-        <span class="glyphicon glyphicon-th"></span>
-      </div>
-    </div>
-
+    {{#each parameters}}
+      {{> chart}}
+    {{/each}}
   </div>
 </template>

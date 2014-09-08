@@ -13,27 +13,24 @@
     padding-right: 30px;
 }
 
-.chart1, .chart2 {
+.chart {
     margin-bottom: 20px;
     padding-top: 50px;
     padding-left: 30px;
 }
 
-.data-stuff {
+.control {
     margin-top: 30px;
+    padding-top: 5px;
     height: 320px;
     background-color: #999;
     text-align: center;
     vertical-align: middle;
 }
 
-.data-stuff h2 {
+.control h3 {
     color: #FFF;
-}
-
-.data-stuff .glyphicon {
-    margin-top: 30px;
-    font-size: 150px;
+    text-transform: uppercase;
 }
 
 .axis path,
@@ -44,6 +41,7 @@
 }
 
 .axis text {
+    display: none;
     font-size: 15px;
 }
 
